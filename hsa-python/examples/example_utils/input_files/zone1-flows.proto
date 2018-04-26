@@ -1,0 +1,7 @@
+name: "s1"
+priority:10
+flow_match:"nw_dst=10.0.0.4 dl_type=ip"
+flow_actions: "OUTPUT to port s1:2"
+priority:20
+flow_match:"nw_dst=10.0.0.3 dl_type=ip"
+flow_actions:"OUTPUT to port s1:2"

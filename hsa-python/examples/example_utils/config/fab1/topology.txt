@@ -1,0 +1,17 @@
+link_groups:
+src_port
+name: "s1:1"
+dst_port
+name: "s2:3"
+src_port
+name: "s1:2"
+dst_port
+name: "s3:3"
+src_port
+name: "s2:3"
+dst_port
+name: "s1:1"
+src_port
+name: "s3:3"
+dst_port
+name: "s1:2"

@@ -1,0 +1,14 @@
+8$topo$0$0$0$
+#
+link$[400003]$None$None$None$None$None$[200002]$#$#$$$link_2$
+link$[200001]$None$None$None$None$None$[300003]$#$#$$$link_3$
+link$[200003]$None$None$None$None$None$[100001]$#$#$$$link_4$
+link$[200002]$None$None$None$None$None$[400003]$#$#$$$link_5$
+link$[700003]$None$None$None$None$None$[500002]$#$#$$$link_6$
+link$[500002]$None$None$None$None$None$[700003]$#$#$$$link_7$
+link$[500003]$None$None$None$None$None$[100002]$#$#$$$link_8$
+link$[500001]$None$None$None$None$None$[600003]$#$#$$$link_9$
+link$[100002]$None$None$None$None$None$[500003]$#$#$$$link_10$
+link$[600003]$None$None$None$None$None$[500001]$#$#$$$link_11$
+link$[100001]$None$None$None$None$None$[200003]$#$#$$$link_12$
+link$[300003]$None$None$None$None$None$[200001]$#$#$$$link_13$

@@ -1,0 +1,92 @@
+{
+ "lazy_eval_active": 0, 
+ "lazy_eval_bytes": [], 
+ "length": 4, 
+ "id": 0, 
+ "rules": [
+  {
+   "priority": 0, 
+   "file": "", 
+   "rewrite": "", 
+   "out_ports": [
+    300003
+   ], 
+   "affected_by": [], 
+   "mask": "", 
+   "in_ports": [
+    100002
+   ], 
+   "inverse_rewrite": "", 
+   "action": "link", 
+   "line": "", 
+   "inverse_match": "", 
+   "id": "link_2", 
+   "match": "", 
+   "influence_on": []
+  }, 
+  {
+   "priority": 0, 
+   "file": "", 
+   "rewrite": "", 
+   "out_ports": [
+    200003
+   ], 
+   "affected_by": [], 
+   "mask": "", 
+   "in_ports": [
+    100001
+   ], 
+   "inverse_rewrite": "", 
+   "action": "link", 
+   "line": "", 
+   "inverse_match": "", 
+   "id": "link_3", 
+   "match": "", 
+   "influence_on": []
+  }, 
+  {
+   "priority": 0, 
+   "file": "", 
+   "rewrite": "", 
+   "out_ports": [
+    100001
+   ], 
+   "affected_by": [], 
+   "mask": "", 
+   "in_ports": [
+    200003
+   ], 
+   "inverse_rewrite": "", 
+   "action": "link", 
+   "line": "", 
+   "inverse_match": "", 
+   "id": "link_4", 
+   "match": "", 
+   "influence_on": []
+  }, 
+  {
+   "priority": 0, 
+   "file": "", 
+   "rewrite": "", 
+   "out_ports": [
+    100002
+   ], 
+   "affected_by": [], 
+   "mask": "", 
+   "in_ports": [
+    300003
+   ], 
+   "inverse_rewrite": "", 
+   "action": "link", 
+   "line": "", 
+   "inverse_match": "", 
+   "id": "link_5", 
+   "match": "", 
+   "influence_on": []
+  }
+ ], 
+ "next_id": 0, 
+ "send_on_receiving_port": 0, 
+ "prefix_id": "topo", 
+ "ports": null
+}

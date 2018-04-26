@@ -1,0 +1,28 @@
+{
+ "rules": [
+  {
+   "priority": 10, 
+   "rewrite": null, 
+   "out_ports": [], 
+   "mask": null, 
+   "in_ports": [], 
+   "action": "fwd", 
+   "match": "00001000,00000000,00001010,00000000,00000000,00000100"
+  }, 
+  {
+   "priority": 20, 
+   "rewrite": null, 
+   "out_ports": [], 
+   "mask": null, 
+   "in_ports": [], 
+   "action": "fwd", 
+   "match": "00001000,00000000,00001010,00000000,00000000,00000011"
+  }
+ ], 
+ "length": 6, 
+ "ports": [
+  100001, 
+  100002
+ ], 
+ "id": 10
+}

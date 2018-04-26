@@ -1,0 +1,35 @@
+ports
+name: "s1:1"
+enabled: "true"
+ports
+name: "s1:2"
+enabled: "true"
+ports
+name: "s2:1"
+enabled: "true"
+ports
+name: "s2:2"
+enabled: "true"
+ports
+name: "s2:3"
+enabled: "true"
+ports
+name: "s3:1"
+enabled: "true"
+ports
+name: "s3:2"
+enabled: "true"
+ports
+name: "s3:3"
+enabled: "true"
+
+link_groups
+src_port: "s1:1"
+dst_port: "s2:3"
+src_port: "s1:2"
+dst_port: "s3:3"
+src_port: "s2:3"
+dst_port: "s1:1"
+src_port: "s3:3"
+dst_port: "1:2"
+

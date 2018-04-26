@@ -1,0 +1,28 @@
+{
+ "rules": [
+  {
+   "priority": 10, 
+   "rewrite": null, 
+   "out_ports": [], 
+   "mask": null, 
+   "in_ports": [], 
+   "action": "fwd", 
+   "match": "xxxxxxxx,xxxxxxxx,00001000,00000000,00001010,00000000,00000000,00000100,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx"
+  }, 
+  {
+   "priority": 20, 
+   "rewrite": null, 
+   "out_ports": [], 
+   "mask": null, 
+   "in_ports": [], 
+   "action": "fwd", 
+   "match": "xxxxxxxx,xxxxxxxx,00001000,00000000,00001010,00000000,00000000,00000011,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx"
+  }
+ ], 
+ "length": 12, 
+ "ports": [
+  300002, 
+  300001
+ ], 
+ "id": 30
+}
